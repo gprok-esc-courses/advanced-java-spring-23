@@ -11,7 +11,9 @@ public abstract class Animal {
         return name;
     }
 
-    public abstract String getType();
+    public String getType() {
+        return "Animal";
+    }
 
     public abstract String sound();
 }
